@@ -13,10 +13,11 @@ General planning and guidelines go here.
 - [x] Bluetooth Control
 - [ ] Follow Wall
 - [ ] Avoid Obstacle
-- [ ] Line Follow
+- [ ] Follow Line
 
 ## Circuit Diagram
 <img align="center" title="Circuit Diagram" src="./circuit.png">
+
 > Got lazy. Did ending part in MS Paint.
 
 
