@@ -11,7 +11,7 @@ General planning and guidelines go here.
 
 ### Software
 - [x] Bluetooth Control
-- [ ] Follow Wall
+- [x] Follow Wall
 - [ ] Avoid Obstacle
 - [ ] Follow Line
 
