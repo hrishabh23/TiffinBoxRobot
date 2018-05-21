@@ -27,26 +27,26 @@ void loop() {
   if(input=='u') {
     motor1.run(FORWARD);
     motor2.run(FORWARD);
-    motor1.speed(mSpeed);
-    motor.speed(mSpeed);
+    motor1.setSpeed(mSpeed);
+    motor.setSpeed(mSpeed);
   }
   else if(input=='d') {
     motor1.run(BACKWARD);
     motor2.run(BACKWARD);
-    motor1.speed(mSpeed);
-    motor.speed(mSpeed);
+    motor1.setSpeed(mSpeed);
+    motor.setSpeed(mSpeed);
   }
   else if(input=='l') {
     motor1.run(RELEASE);
     motor2.run(FORWARD);
-    motor1.speed(mSpeed);
-    motor.speed(mSpeed);
+    motor1.setSpeed(mSpeed);
+    motor.setSpeed(mSpeed);
   }
   else if(input=='r') {
     motor1.run(FORWARD);
     motor2.run(RELEASE);
-    motor1.speed(mSpeed);
-    motor.speed(mSpeed);
+    motor1.setSpeed(mSpeed);
+    motor.setSpeed(mSpeed);
   }
   else if(input=='A') {
     index=0;

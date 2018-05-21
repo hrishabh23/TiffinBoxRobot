@@ -3,16 +3,19 @@
 A Simple Arduino based robot.
 General planning and guidelines go here.
 
+## Pre-requisites
+Installation of [Adafruit Motor Shield Library](https://learn.adafruit.com/adafruit-motor-shield/library-install) is required.
+
 ## Progress
 ### Hardware
 - [x] Chassis
-- [ ] Assembling
-- [ ] Final Run
+- [x] Assembling
+- [x] Final Run
 
 ### Software
 - [x] Bluetooth Control
 - [x] Follow Wall
-- [ ] Avoid Obstacle
+- [x] Avoid Obstacle
 - [ ] Follow Line
 
 ## Circuit Diagram
@@ -92,3 +95,39 @@ General planning and guidelines go here.
    - A3 (Echo)
    - Vcc (+5v) (4th of 6 pins)
    - GND (4th of 6 pins)
+   
+## Controlling the Bot
+
+The recommended Android App is [Bluetooth Electronics](https://play.google.com/store/apps/details?id=com.keuwl.arduinobluetooth&hl=en) available free on the Play Store.
+
+The following properties of the controller has to be set up for proper functioning:
+1. Forward Button:
+   - Press: "f"
+   - Release: "F"
+   
+2. Backward Button:
+   - Press: "b"
+   - Release: "B"
+   
+3. Left Button:
+   - Press: "l"
+   - Release: "L"
+   
+4. Right Button:
+   - Press: "r"
+   - Release: "R"
+   
+5. Object Detection Trigger Button:
+   - Press: "o"
+   - Release: ""
+   
+6. Wall Follower Trigger Button:
+   - Press: "w"
+   - Release: ""
+   
+7. Speed Control Slider:
+   - Min: 0
+   - Max: 255
+   - On Change: "" + value + "A"
+   
+Pictures of each component has been provided in image form in the /Images folder.
