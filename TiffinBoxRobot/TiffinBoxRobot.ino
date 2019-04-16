@@ -30,25 +30,25 @@ void loop() {
         motor1.run(FORWARD);
         motor2.run(FORWARD);
         motor1.setSpeed(mSpeed);
-        motor.setSpeed(mSpeed);
+        motor2.setSpeed(mSpeed);
     }
     else if(input=='d') {             //moving backwards
         motor1.run(BACKWARD);
         motor2.run(BACKWARD);
         motor1.setSpeed(mSpeed);
-        motor.setSpeed(mSpeed);
+        motor2.setSpeed(mSpeed);
     }
     else if(input=='l') {             //turning left
         motor1.run(RELEASE);
         motor2.run(FORWARD);
         motor1.setSpeed(mSpeed);
-        motor.setSpeed(mSpeed);
+        motor2.setSpeed(mSpeed);
     }
     else if(input=='r') {             //turning right
         motor1.run(FORWARD);
         motor2.run(RELEASE);
         motor1.setSpeed(mSpeed);
-        motor.setSpeed(mSpeed);
+        motor2.setSpeed(mSpeed);
     }
     else if(input=='A') {             //speed control by slider
         index=0;
@@ -71,7 +71,7 @@ void loop() {
       
         if(distance<25) {
             motor1.run(FORWARD);
-            motor2.run(REVERSE);
+            motor2.run(BACKWARD);
             delayMicroseconds(500);
         }
         else {
